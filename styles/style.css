@@ -1,0 +1,34 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(222, 26, 65);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 25px;
+  background-color: #0cb1e8;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  background-color: #b4a1a1;
+  border: 5px solid #030202;
+  cursor: pointer;
+}
+
+.reset-btn, .reset-scorecard-btn , .autoplay-btn{
+  margin-top: 30px;
+  padding: 15px 20px ;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: rgb(6, 152, 201);
+}
